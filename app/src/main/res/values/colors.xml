@@ -1,0 +1,22 @@
+<resources>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_700">#616161</color>
+    <color name="light_rose">#FFF0F5</color> <!-- Light pinkish rose -->
+    <color name="rose_accent">#FFB6C1</color> <!-- Slightly darker rose for accents -->
+
+    <!-- Grey Colors -->
+    <color name="light_grey">#F5F5F5</color> <!-- Very light grey -->
+    <color name="medium_grey">#D3D3D3</color> <!-- Medium grey for borders/dividers -->
+    <color name="dark_grey">#FFB6C1</color>
+
+    <!-- Other Colors -->
+
+
+</resources>

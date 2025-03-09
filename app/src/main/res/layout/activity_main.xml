@@ -1,0 +1,137 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- IP Address Input -->
+        <EditText
+            android:id="@+id/et_ip_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter NodeMCU IP Address" />
+
+        <!-- Remaining Pills Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@android:color/darker_gray">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remaining Pills"
+                android:textColor="@color/rose_accent"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tv_remaining_pills_servo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chamber 1: 0 pills"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tv_remaining_pills_servo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chamber 2: 0 pills"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Chamber 1 Pills Input -->
+        <EditText
+            android:id="@+id/et_servo1_pills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pills from Chamber 1" />
+
+        <!-- TimePicker for Chamber 1 -->
+        <TimePicker
+            android:id="@+id/tp_servo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Schedule Button for Chamber 1 -->
+        <Button
+            android:id="@+id/btn_add_servo1_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule for Chamber 1" />
+
+        <!-- Chamber 2 Pills Input -->
+        <EditText
+            android:id="@+id/et_servo2_pills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pills from Chamber 2" />
+
+        <!-- TimePicker for Chamber 2 -->
+        <TimePicker
+            android:id="@+id/tp_servo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Schedule Button for Chamber 2 -->
+        <Button
+            android:id="@+id/btn_add_servo2_schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Schedule for Chamber 2" />
+
+        <!-- Scheduled Dispensing List -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scheduled Dispensing"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <ListView
+                android:id="@+id/lv_schedules"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+
+        <!-- Current Pill Counts -->
+        <EditText
+            android:id="@+id/et_pills_servo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Pills in Chamber 1" />
+
+        <EditText
+            android:id="@+id/et_pills_servo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Current Pills in Chamber 2" />
+
+        <!-- Reset Button -->
+        <Button
+            android:id="@+id/btn_reset_pills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset Pill Counts"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+</ScrollView>

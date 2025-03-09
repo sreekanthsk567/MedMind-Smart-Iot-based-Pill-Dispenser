@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PillDispenser" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/rose_accent</item> <!-- Light rose as primary color -->
+        <item name="colorPrimaryVariant">@color/rose_accent</item> <!-- Slightly darker rose for accents -->
+        <item name="colorOnPrimary">@color/black</item> <!-- Black text/icons on primary -->
+
+        <!-- Secondary Colors -->
+        <item name="colorSecondary">@color/light_grey</item> <!-- Light grey for secondary -->
+        <item name="colorSecondaryVariant">@color/medium_grey</item> <!-- Medium grey for secondary variant -->
+        <item name="colorOnSecondary">@color/rose_accent</item> <!-- Dark grey text/icons on secondary -->
+
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item> <!-- Matches primary variant -->
+    </style>
+</resources>
