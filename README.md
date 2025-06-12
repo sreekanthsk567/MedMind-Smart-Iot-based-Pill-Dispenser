@@ -1,5 +1,6 @@
 
-MedMind: Smart Pill Dispenser & Medication Adherence System
+MedMind:An IoT based Smart Pill Dispenser & Medication Adherence System
+
 MedMind is an innovative mini-project that addresses the critical social problem of medical non-adherence. It combines a user-friendly Android application with custom-built hardware to ensure patients take their medication correctly and on time.
 🎯 About The Project
 Forgetting to take medication is a common issue that can lead to serious health complications. Our solution, MedMind, is an automated pill dispenser system designed to help users manage their medication schedules effectively. The system physically dispenses the correct pills at the prescribed times and keeps both the patient and caregivers informed through a dedicated mobile app.
