@@ -6,7 +6,7 @@ MedMind is an innovative mini-project that addresses the critical social problem
 Forgetting to take medication is a common issue that can lead to serious health complications. Our solution, MedMind, is an automated pill dispenser system designed to help users manage their medication schedules effectively. The system physically dispenses the correct pills at the prescribed times and keeps both the patient and caregivers informed through a dedicated mobile app.
 This project seamlessly integrates our self-built Android app with custom hardware, creating a reliable and easy-to-use solution for a pressing real-world challenge.
 Built With
- * Frontend: Android Studio (Java/XML)
+ * Frontend: Android Studio (Kotlin)
  * Hardware:
    * ESP8266 (Main Controller)
    * Servo Motors (Dispensing Mechanism)
@@ -26,4 +26,5 @@ This project was a collaborative effort by:
  * Sandra
  * Pranav JP
  * Sreekanth Sk
+   
 We hope MedMind inspires other engineering students to apply their skills to tackle real-world social challenges.
