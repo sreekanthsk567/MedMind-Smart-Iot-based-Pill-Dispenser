@@ -1,5 +1,7 @@
 
-MedMind:An IoT based Smart Pill Dispenser & Medication Adherence System
+MedMind Version 1:An IoT based Smart Pill Dispenser & Medication Adherence System
+
+<img width="1080" height="2400" alt="Image" src="https://github.com/user-attachments/assets/6e009f94-e082-4576-a01e-8e93b8b77801" />
 
 MedMind is an innovative mini-project that addresses the critical social problem of medical non-adherence. It combines a user-friendly Android application with custom-built hardware to ensure patients take their medication correctly and on time.
 
@@ -31,4 +33,3 @@ This project was a collaborative effort by:
  * Pranav JP
  * Sreekanth Sk
    
-We hope MedMind inspires other engineering students to apply their skills to tackle real-world social challenges.
